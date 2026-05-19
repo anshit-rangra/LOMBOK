@@ -213,6 +213,13 @@ nav {
             height: 4px;
             background-color: black;
             margin-bottom: 10vh;
+            font-size: 12px;
+
+            &::after {
+                content: "a";
+                color: white;
+
+            }
 
         }
 
@@ -232,18 +239,26 @@ nav {
     .about {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 50%);
-        height: auto;
+        grid-template-rows: 30% 60%;
+        height: 90%;
     }
 
     .left {
-        height: 50%;
         width: 100%;
     }
 
     .right {
-        height: 50%;
         width: 100%;
+    }
+
+    
+
+    .center-content h1 {
+        font-size: 4rem;
+    }
+
+    .center-content h3 {
+        font-size: 1rem;
     }
 
     
